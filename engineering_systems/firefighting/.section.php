@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Пожаротушение";
+$arDirProperties = Array(
+
+);
+?>

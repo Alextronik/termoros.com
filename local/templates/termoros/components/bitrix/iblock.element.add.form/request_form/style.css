@@ -1,0 +1,236 @@
+.anketa
+{
+}
+
+.anketa .aform-block
+{
+}
+
+.anketa .aform-block .row
+{
+margin:0 0 8px 0;
+font-size:0;
+}
+
+.anketa .aform-block .fieldname
+{
+display:inline-block;
+vertical-align:middle;
+width:100px;
+font-size:14px;
+color:#898989;
+}
+
+.anketa .aform-block input[type=text]
+{
+width:100px;
+height:40px;
+padding:0 13px;
+margin:0;
+border:1px solid #e0e0e0;
+background:#fff;
+vertical-align:middle;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+border-radius:2px;
+behavior:url(/PIE.htc);
+font-size:14px;
+}
+
+.anketa .aform-block textarea
+{
+width:948px;
+max-width:948px;
+min-width:948px;
+height:136px;
+max-height:136px;
+min-height:136px;
+padding:13px;
+margin:0;
+border:1px solid #e0e0e0;
+background:#fff;
+vertical-align:middle;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+border-radius:2px;
+behavior:url(/PIE.htc);
+font-size:14px;
+resize:none;
+overflow:auto;
+}
+
+.anketa .aform-block.main input[type=text]
+{
+width:702px;
+}
+
+.anketa .aform-block.main .fieldname
+{
+width:220px;
+}
+
+.anketa .aform-block.main .fieldname.w68
+{
+width:68px;
+margin:0 0 0 24px;
+}
+
+.anketa .aform-block.main input[type=text].w253
+{
+width:253px;
+}
+
+.anketa .aform-block.education .head
+{
+margin:25px 0 15px 0;
+}
+
+.anketa .aform-block.education .w204
+{
+width:204px;
+text-align:center;
+}
+
+.anketa .aform-block.education .w240
+{
+width:240px;
+text-align:center;
+}
+
+.anketa .aform-block.education .w370
+{
+width:370px;
+text-align:center;
+}
+
+.anketa .aform-block.education input[type=text].w178
+{
+width:178px;
+}
+
+.anketa .aform-block.education input[type=text].w342
+{
+width:342px;
+}
+
+.anketa .aform-block.education input[type=text].w212
+{
+width:212px;
+}
+
+.anketa .aform-block.education .fieldname.w15
+{
+width:15px;
+}
+
+.anketa .aform-block.education .fieldname.w30
+{
+width:30px;
+text-align:center;
+}
+
+.anketa .aform-block.education input[type=text].w44
+{
+width:44px;
+}
+
+.anketa .aform-block.lang .fieldname
+{
+width:124px;
+}
+
+.anketa .aform-block.lang .w315
+{
+width:315px;
+margin:0 0 0 -30px;
+}
+
+.anketa .aform-block.lang .w287
+{
+width:287px;
+}
+
+.anketa .aform-block.pc .row > div
+{
+display:inline-block;
+vertical-align:top;
+}
+
+.anketa .aform-block.pc .fieldname
+{
+width:148px;
+margin:15px 0 0 0;
+padding:0 20px 0 0;
+}
+
+.anketa .aform-block.pc .w335
+{
+width:335px;
+}
+
+.anketa .aform-block.pc textarea
+{
+width:773px;
+max-width:773px;
+min-width:773px;
+}
+
+.anketa .aform-block.other .fieldname
+{
+width:190px;
+padding:0 20px 0 0;
+}
+
+.anketa .aform-block.other input[type=text]
+{
+width:723px;
+}
+
+.anketa .aform-block.other .w753
+{
+width:753px;
+}
+
+.anketa input[type=submit]
+{
+width:184px;
+height:42px;
+padding:0;
+line-height:42px;
+text-align:center;
+background:#749a4a;	
+color:#fff;
+border:none;
+font-size:18px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+border-radius:3px;
+behavior:url(/PIE.htc);
+cursor:pointer;
+}
+
+.anketa input[type=submit]:hover
+{
+background:#3c3c3c;
+}
+#send_request
+{
+	font-size: 26px;
+	text-decoration: none; 
+	border-bottom:2px dashed;
+}
+#send_request:hover { border-bottom: none; }
+#request_form 
+{
+	display:none;
+}
+.green_color {
+	color: #749a4a;	
+}
+.red {
+	color: red;	
+}
+.left-margin {
+	margin-left: 15px;
+	
+}

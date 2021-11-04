@@ -1,0 +1,4 @@
+<?php
+
+$MESS['REDREAMS_RTB_MENU_TITLE'] = 'Меню';
+$MESS['REDREAMS_RTB_SUBMENU_TITLE'] = 'Подменю';

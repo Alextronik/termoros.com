@@ -1,0 +1,9 @@
+<?
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+?>
+<?php
+\Bitrix\Main\Loader::includeModule('redreams.partner');
+if($_REQUEST['profile'])
+{
+    \Redreams\Partners\contractor::setContractor((int)$_REQUEST['profile']);
+}

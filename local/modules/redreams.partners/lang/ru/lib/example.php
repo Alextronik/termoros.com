@@ -1,0 +1,5 @@
+<?php
+$MESS['REDREAMS_PARTNERS_ID'] = 'ID';
+$MESS['REDREAMS_PARTNERS_NAME'] = 'Название';
+$MESS['REDREAMS_PARTNERS_NAME_DEFAULT_VALUE'] = 'Безымянный элемент';
+$MESS['REDREAMS_PARTNERS_IMAGE_SET'] = 'Изображения';

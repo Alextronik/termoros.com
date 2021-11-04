@@ -1,0 +1,6 @@
+<?
+$sSectionName = "DIY";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Презентация Терморос", 
+		"/about_company/presentation_termoros/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Карьера", 
+		"/about_company/career/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Портфолио", 
+		"/about_company/portfolio/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Новости", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Акции", 
+		"/buyers/promotions/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Сервисные центры", 
+		"/technical_support/service_centers/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

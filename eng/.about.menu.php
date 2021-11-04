@@ -1,0 +1,39 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Presentation of Termoros", 
+		"/about_company/presentation_termoros/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Career", 
+		"/about_company/career/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Partners", 
+		"/about_company/partners/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Portfolio", 
+		"/about_company/portfolio/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"News", 
+		"/news/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

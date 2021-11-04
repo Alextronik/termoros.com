@@ -1,0 +1,46 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Price-lists", 
+		"/buyers/prices/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Payment and delivery", 
+		"/buyers/payment_delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Actions", 
+		"/buyers/promotions/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"To download the catalog", 
+		"/buyers/download_catalog/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Dealers", 
+		"/dealers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Contacts", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

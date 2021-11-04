@@ -1,0 +1,67 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Технические заказчики", 
+		"/cooperation/technical_customer/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"DIY", 
+		"/cooperation/diy/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Проектировщики", 
+		"/cooperation/engineers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Торговые компании", 
+		"/cooperation/trading_companies/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Монтажные компании", 
+		"/cooperation/installation_companies/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Архитекторы и дизайнеры", 
+		"/cooperation/architects_designers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"СМИ", 
+		"/cooperation/mass_media/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поставщики", 
+		"/cooperation/providers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Субподрядчики", 
+		"/cooperation/subpodryadchiki/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

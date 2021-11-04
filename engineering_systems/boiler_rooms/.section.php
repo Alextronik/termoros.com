@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Котельные";
+$arDirProperties = Array(
+
+);
+?>

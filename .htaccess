@@ -1,0 +1,211 @@
+#Order Deny,Allow
+#Deny from 5.175.97.99
+#Deny from 109.122.123.62
+#Deny from 67.222.139.140
+#Deny from 83.220.87.129
+#Deny from 217.25.233.185
+#Deny from 31.207.72.161
+#Deny from 81.23.107.110
+#Deny from 81.23.107.110
+#Deny from 87.117.189.224
+#Deny from 151.80.39.28
+#Deny from 176.116.143.35
+#Deny from 176.116.143.82
+#Deny from 46.229.168.*
+#Deny from 54.36.148.*
+#Deny from 37.235.178.187
+
+
+
+Options -Indexes
+ErrorDocument 404 /404.php
+
+<IfModule mod_php7.c>
+  php_flag session.use_trans_sid off
+  php_value display_errors 1
+  php_value mbstring.internal_encoding UTF-8
+  php_value max_input_vars 200000
+  php_value max_execution_time 0
+  php_value mbstring.func_overload 2
+  #php_flag opcache.enable Off 
+  php_value memory_limit 1024M
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+ 
+  
+RedirectMatch /autodiscover/autodiscover.xml https://autodiscover.termoros.com/Autodiscover/Autodiscover.xml
+
+RewriteCond %{HTTP_USER_AGENT} SemrushBot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} AhrefsBot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} MJ12bot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} Riddler
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} aiHitBot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} trovitBot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} Detectify
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} BLEXBot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} LinkpadBot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} dotbot
+RewriteRule (.*) - [F,L]
+RewriteCond %{HTTP_USER_AGENT} FlipboardProxy
+RewriteRule (.*) - [F,L]
+
+RewriteCond %{HTTP_HOST} ^far\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/brands/far/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.far\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/brands/far/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(.+)\.far\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/brands/far/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(.+)\.termoros\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/ [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^(.+)\.termoros\.com$   [NC] 
+RewriteCond %{HTTP_HOST} !^www\. 
+RewriteRule ^ https://www.termoros.com/  [L,R] 
+  
+RewriteCond %{SERVER_PORT} !^443$ 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+#RewriteCond %{SERVER_PORT} ^443$ 
+###RewriteCond %{HTTPS} on
+#RewriteRule ^(.*)$ http://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^termoros\.infodaymedia\.com
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^danielian\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^armatura-euros\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^gvardiola\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^intelhouse\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^continium\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^bcvoroncovo\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jagashop\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jaga-rus\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^armatura-far\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^asia-radiator\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^euros\.su
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^jaga\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^2015\.termoros\.com
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^tmp\.termoros\.com
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^termoros.ru
+RewriteRule (.*) https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www.termoros.ru
+RewriteRule (.*) https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^termoros.com
+RewriteRule (.*) https://www.termoros.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^kromwell\.ru
+RewriteRule ^(.*)$ https://www.termoros.com/$1 [R=301,L]
+
+#RewriteCond %{HTTP_HOST} !^www\.termoros\.com$ 
+#RewriteRule ^(.*)$ https://www.termoros.com/$1
+
+
+#RewriteCond %{HTTP_HOST} !^www.termoros.com$
+#RewriteRule ^(.*) https://www.termoros.com/$1 [QSA,L,R=301]
+
+RewriteCond %{QUERY_STRING} CHAR\(
+RewriteRule ^(.*)$ https://www.termoros.com/404.php?
+
+
+RedirectMatch /podderzhka/prays-listy/ http://www.termoros.com/buyers/prices/
+#RedirectMatch /buyers/promotions/rasprodazha-oborudovaniya/ https://www.termoros.com/catalog/sales/
+
+
+#SEO DEMIS
+
+	Redirect 301 /brend.php https://www.termoros.com/brands/
+	Redirect 301 /kompaniya/nashi-postavshchiki/cimberio.php https://www.termoros.com/brands/cimberio/
+
+	
+
+	
+	
+	
+	
+	#Force Trailing slash
+	RewriteBase /
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_URI} !(.*)/$
+	RewriteRule ^(.*[^/])$ $1/ [L,R=301]
+
+
+#END DEMIS
+
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+  
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-l
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteCond %{REQUEST_URI} ^(.*/[^/\.]+)$
+   RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1/ [R=301,L]
+
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<files *.pdf>
+forceType application/octet-stream
+Header set Content-Disposition attachment
+</files>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 3 day"
+  ExpiresByType image/gif "access plus 3 day"
+  ExpiresByType image/png "access plus 3 day"
+  ExpiresByType text/css "access plus 3 day"
+  ExpiresByType application/javascript "access plus 3 day"
+</IfModule>

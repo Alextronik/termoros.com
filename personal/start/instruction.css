@@ -1,0 +1,19 @@
+.vac_i .margin-bottom {
+	margin-top: 10px;
+}
+.vac_i .margin-bottom li{
+	margin-bottom: 8px;
+}
+.border-bottom {
+	border-bottom: 1px solid #d7d9d8;
+}
+.inner_contentblock .instruction-table tr td {
+	border-bottom: 0;
+}
+
+.img-styling {
+	border: 1px solid grey; 
+	padding: 3px; 
+	width:150px; 
+	height: 111px;	
+}

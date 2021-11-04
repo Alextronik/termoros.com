@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Отопление";
+$arDirProperties = Array(
+
+);
+?>

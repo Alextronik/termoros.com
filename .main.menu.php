@@ -1,0 +1,70 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Бренды", 
+		"/brands/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	/*
+	Array(
+		"Инженерные системы", 
+		"/engineering_systems/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	
+	Array(
+		"Услуги", 
+		"/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	*/
+	Array(
+		"Прайс-листы", 
+		"/buyers/prices/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Обучение", 
+		"/technical_support/training/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Документация", 
+		"/technical_support/", 
+		Array(), 
+		Array("LINK2" => "/technical_support/tech_documentation/"), 
+		"" 
+	),
+	Array(
+		"Доставка", 
+		"/buyers/payment_delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контакты", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Где купить", 
+		"/where_buy/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

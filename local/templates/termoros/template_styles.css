@@ -1,0 +1,41 @@
+.del
+{
+    top: 7px;
+    right: 0px;
+    height: 22px;
+    background: url(/local/templates/termoros/img/popclose.png) no-repeat right 1px;
+    cursor: pointer;
+    display: inline-block;
+    padding-right: 27px;
+    padding-top: 0px;
+    position: relative;
+}
+
+.file_name
+{
+	margin-bottom: 5px;
+}
+
+.file_wp .sub.error
+{
+	color: red;
+}
+
+
+.wheel {
+    animation-name: spin;
+    animation-duration: 1200ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+ 
+    z-index: 100;
+}
+ 
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
